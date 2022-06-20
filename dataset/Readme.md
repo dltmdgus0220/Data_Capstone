@@ -1,4 +1,4 @@
-Figshare.zip : original data
+Figshare : original data
 
 Figshare_Aug_resize_224.zip : Augmentation & resize 224x224 data
 

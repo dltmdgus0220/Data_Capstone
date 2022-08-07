@@ -9,7 +9,9 @@
 ## Dataset
 - glioma(1426개), meningioma(708개), pituitary(930개)로 이루어진 총 3064개 뇌 MRI 이미지 dataset과 각 이미지에 따른 종양 부분이 segmentation 된 tumor mask dataset을 사용한다.
 - 의료 데이터 특성 상 데이터 수가 적으므로 Elastic Deformation 기법을 통해 뇌 MRI 이미지 수를 2배로 증강하여 총 6128개의 이미지 dataset을 사용한다. 
+
 ![image](https://user-images.githubusercontent.com/61490878/175048927-ba25f2df-fbfa-4abe-bb51-02f3459b56e2.png)
+
 ![image](https://user-images.githubusercontent.com/61490878/175049650-0d57542a-84b3-46fe-ba0a-3f9baf17f381.png)
 
 
@@ -27,21 +29,26 @@ U-Net은 Biomedical 분야에서 이미지 분할(Image Segmentation)을 목적�
 
 ## result
 #### 1) 데이터 증강 전 후 성능 비교
+
 ![image](https://user-images.githubusercontent.com/61490878/175051057-0485bffd-eaf3-4962-94e6-84b782705bad.png)
+
 - 증강 후 overfitting을 방지할 수 있었고 성능 또한 대체적으로 향상되었음을 볼 수 있다.
 - UNet의 성능이 IoU 0.6640으로 가장 높게 나왔다.
 
 
 #### 2) learning rate 별 성능 비교
+
 ![image](https://user-images.githubusercontent.com/61490878/175051175-4bcd7dca-9476-49f2-b435-c00dfd715891.png)
 
 
 > ![image](https://user-images.githubusercontent.com/61490878/175052070-3903451a-60a2-4a83-88cf-36fcd29e1f67.png)  **Test set IoU(lr:0.01)**  
+
 Unet: 0.7255 –> 0.7522  
 Deep_ResUnet : 0.6921-> 0.7162  
 Hybrid_ResUnet :  0.7152 -> 0.7432
 - learning rate을 0.01로 설정하였을 때 성능이 향상됨을 볼 수 있었다.
 - UNet의 성능이 IoU 0.7522로 가장 높게 나왔다.
+
 
 ## conclusion
  이번 프로젝트는 segmentation 하는 모델을 새롭게 구현하는 것이 아닌 기존 모델들의 파라미터나 구조를 조금씩 변경해보면서 성능을 높이는데 초점을 두었다. 그러나 똑같은 데이터셋을 사용한 선행 연구보다 낮은 정확도를 보였다. 성능이 떨어지는 원인을 찾기 위해 여러 시도들을 해보았지만 모델 구조도 조금씩 수정하였고 입력 데이터셋 또한 matlab 파일을 사용한 선행 연구와는 달리 jpg 로 변환해서 사용하는 등 통제 변인과 조작변인이 명확하지 않은 상태였다. 때문에 성능 저하의 원인을 찾는데 어려움이 있었다. 이를 통해 성능 개선을 위한 연구에서 독립변인을 정확히 나누는 것에 대한 중요성을 깨닫게 되었다.  

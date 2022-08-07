@@ -16,7 +16,9 @@
 
 
 ## Model
+
 ![image](https://user-images.githubusercontent.com/61490878/175050012-de253483-dfdb-4d82-8f8b-80f212762206.png)
+
 U-Net은 Biomedical 분야에서 이미지 분할(Image Segmentation)을 목적으로 제안된 모델이다. U-Net을 포함하여 U-Net 기반 모델인 U-Net++(Nested U-Net), Deep Res U-Net, Hybrid Res U-Net 모델을 사용하였다.
 
 1) **UNet**: Biomedical 분야에서 Image Segmentation을 목적으로 제안된 End-to-End 방식의 Fully-Convolutional Network 기반 모델이다. 입력 이미지의 Context 포착이 목적인 Contracting Path와 세밀한 Localization을 위해 위치정보를 결합(skip connection)하여 up-sampling을 진행하는 Expanding Path로 구성되어있다.

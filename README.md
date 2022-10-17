@@ -12,14 +12,12 @@
 
 ![image](https://user-images.githubusercontent.com/61490878/175048927-ba25f2df-fbfa-4abe-bb51-02f3459b56e2.png)
 
-![image](https://user-images.githubusercontent.com/61490878/175049650-0d57542a-84b3-46fe-ba0a-3f9baf17f381.png)
-
 
 ## Model
 
-![image](https://user-images.githubusercontent.com/61490878/175050012-de253483-dfdb-4d82-8f8b-80f212762206.png)
+![image](https://user-images.githubusercontent.com/83739271/196138408-1c985b56-341e-4512-8469-c22aaf95da3e.png)
 
-U-Net은 Biomedical 분야에서 이미지 분할(Image Segmentation)을 목적으로 제안된 모델이다. U-Net을 포함하여 U-Net 기반 모델인 U-Net++(Nested U-Net), Deep Res U-Net, Hybrid Res U-Net 모델을 사용하였다.
+U-Net은 Biomedical 분야에서 이미지 분할(Image Segmentation)을 목적으로 제안된 모델이다. U-Net을 포함하여 U-Net 파생 모델인 Residual U-Net, Hybrid Res U-Net 모델을 사용하였다.
 
 1) **UNet**: Biomedical 분야에서 Image Segmentation을 목적으로 제안된 End-to-End 방식의 Fully-Convolutional Network 기반 모델이다. 입력 이미지의 Context 포착이 목적인 Contracting Path와 세밀한 Localization을 위해 위치정보를 결합(skip connection)하여 up-sampling을 진행하는 Expanding Path로 구성되어있다.
 2) **UNet++**: UNet의 기존 skip connection에서 Encoder와 Decoder 사이의 Semantic Gap을 연결하는 부분이 추가된 Re-designed skip pathways을 사용하는 모델이다.

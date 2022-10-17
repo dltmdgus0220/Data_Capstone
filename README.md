@@ -15,7 +15,7 @@
 
 ## Model
 
-<center>![image](https://user-images.githubusercontent.com/83739271/196138408-1c985b56-341e-4512-8469-c22aaf95da3e.png)</center>
+!<center>[image](https://user-images.githubusercontent.com/83739271/196138408-1c985b56-341e-4512-8469-c22aaf95da3e.png)</center>
 
 U-Net은 Biomedical 분야에서 이미지 분할(Image Segmentation)을 목적으로 제안된 모델이다. U-Net을 포함하여 U-Net 파생 모델인 Residual U-Net, Hybrid Res U-Net 모델을 사용하였다.
 

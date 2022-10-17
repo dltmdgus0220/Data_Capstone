@@ -15,7 +15,7 @@
 
 ## Model
 
-![image](https://user-images.githubusercontent.com/83739271/196138408-1c985b56-341e-4512-8469-c22aaf95da3e.png)
+<center>![image](https://user-images.githubusercontent.com/83739271/196138408-1c985b56-341e-4512-8469-c22aaf95da3e.png)</center>
 
 U-Net은 Biomedical 분야에서 이미지 분할(Image Segmentation)을 목적으로 제안된 모델이다. U-Net을 포함하여 U-Net 파생 모델인 Residual U-Net, Hybrid Res U-Net 모델을 사용하였다.
 
@@ -30,7 +30,7 @@ U-Net은 Biomedical 분야에서 이미지 분할(Image Segmentation)을 목적�
 ## result
 #### 1) 성능 평가 지표
 
-![image](https://user-images.githubusercontent.com/83739271/196137980-8dfc8e37-1f99-49cd-9580-1378f8d3fa9e.png)
+<center>![image](https://user-images.githubusercontent.com/83739271/196137980-8dfc8e37-1f99-49cd-9580-1378f8d3fa9e.png)</center>
 
 
 모델의 성능을 평가하기 위해 Intersection over Union(IoU)와 F1-score 두 가지 평가지표를 사용하였다.
@@ -38,7 +38,7 @@ U-Net은 Biomedical 분야에서 이미지 분할(Image Segmentation)을 목적�
 
 #### 2) 성능 비교
 
-![image](https://user-images.githubusercontent.com/83739271/196137840-a4f9fd05-7d29-4e7d-86ef-2d1ab319256f.png)
+<center>![image](https://user-images.githubusercontent.com/83739271/196137840-a4f9fd05-7d29-4e7d-86ef-2d1ab319256f.png)</center>
 
 
 

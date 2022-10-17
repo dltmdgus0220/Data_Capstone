@@ -30,26 +30,18 @@ U-Net은 Biomedical 분야에서 이미지 분할(Image Segmentation)을 목적�
 
 
 ## result
-#### 1) 데이터 증강 전 후 성능 비교
+#### 1) 성능 평가 지표
 
-![image](https://user-images.githubusercontent.com/61490878/175051057-0485bffd-eaf3-4962-94e6-84b782705bad.png)
-
-- 증강 후 overfitting을 방지할 수 있었고 성능 또한 대체적으로 향상되었음을 볼 수 있다.
-- UNet의 성능이 IoU 0.6640으로 가장 높게 나왔다.
+![image](https://user-images.githubusercontent.com/83739271/196137980-8dfc8e37-1f99-49cd-9580-1378f8d3fa9e.png)
 
 
-#### 2) learning rate 별 성능 비교
-
-![image](https://user-images.githubusercontent.com/61490878/175051175-4bcd7dca-9476-49f2-b435-c00dfd715891.png)
+모델의 성능을 평가하기 위해 Intersection over Union(IoU)와 F1-score 두 가지 평가지표를 사용하였다.
 
 
-> ![image](https://user-images.githubusercontent.com/61490878/175052070-3903451a-60a2-4a83-88cf-36fcd29e1f67.png)  **Test set IoU(lr:0.01)**  
+#### 2) 성능 비교
 
-Unet: 0.7255 –> 0.7522  
-Deep_ResUnet : 0.6921-> 0.7162  
-Hybrid_ResUnet :  0.7152 -> 0.7432
-- learning rate을 0.01로 설정하였을 때 성능이 향상됨을 볼 수 있었다.
-- UNet의 성능이 IoU 0.7522로 가장 높게 나왔다.
+![image](https://user-images.githubusercontent.com/83739271/196137840-a4f9fd05-7d29-4e7d-86ef-2d1ab319256f.png)
+
 
 
 ## conclusion

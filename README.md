@@ -1,4 +1,4 @@
-# Performance Evaluation of Deep Learning-Based Brain Tumor Segmentation Using Magnetic Resonance Imaging
+# Performance Evaluation of Deep Learning-Based Brain Tumor Segmentation Using Magnetic Resonance Imaging 
 ### 개요
 뇌종양은 두개골 내의 뇌 및 뇌 주변 구조물에서 발생하는 종양을 의미한다. 뇌종양의 경우 초기에 얼마나 정확하게 진단하는지에 따라 질병의 완치 가능성이 좌우된다. 그러나 자기공명영상(Magnetic Resonance Imaging, MRI)을 이용하여 뇌종양 영역을 검출하는 것은 상당한 시간이 소모되고 뇌종양의 위치를 부정확하게 진단할 가능성이 있다. 따라서 MRI 영상 데이터를 이용한 뇌종양 분할 및 진단 작업량을 최소한으로 줄이기 위해 다양한 딥러닝 기반 뇌종양 분할 모델 개발 연구가 활발히 진행되고 있다
 

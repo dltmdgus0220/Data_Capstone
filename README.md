@@ -48,7 +48,7 @@ U-Net은 Biomedical 분야에서 이미지 분할(Image Segmentation)을 목적�
 
 #### 2) 성능 비교
 
-![image](https://user-images.githubusercontent.com/83739271/196137840-a4f9fd05-7d29-4e7d-86ef-2d1ab319256f.png)
+![image](https://ifh.cc/g/y60ZqL.png)
 
 
 

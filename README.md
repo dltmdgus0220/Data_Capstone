@@ -61,4 +61,4 @@ U-Net은 Biomedical 분야에서 이미지 분할(Image Segmentation)을 목적�
 
 ## Reference 
 
-https://github.com/4uiiurz1/pytorch-nested-unet
+* https://github.com/4uiiurz1/pytorch-nested-unet
